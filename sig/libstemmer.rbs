@@ -1,0 +1,3 @@
+module Libstemmer
+  VERSION: String
+end

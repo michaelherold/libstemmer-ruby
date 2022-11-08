@@ -1,0 +1,12 @@
+---
+require:
+  - rubocop-minitest
+  - rubocop-rake
+  - rubocop-sorbet
+
+inherit_gem:
+  rubocop-shopify: rubocop.yml
+
+AllCops:
+  NewCops: disable
+  TargetRubyVersion: 3.0
