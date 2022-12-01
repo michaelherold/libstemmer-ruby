@@ -5,5 +5,6 @@ require_relative "libstemmer/version"
 
 module Libstemmer
   class Error < StandardError; end
-  # Your code goes here...
 end
+
+require "libstemmer/stemmer"

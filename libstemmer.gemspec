@@ -18,8 +18,11 @@ Gem::Specification.new do |spec|
   spec.metadata["source_code_uri"] = spec.homepage
   spec.metadata["changelog_uri"] = "https://github.com/michaelherold/libstemmer-ruby/blob/main/CHANGELOG.md"
 
+  spec.extensions = ["ext/libstemmer/extconf.rb"]
   spec.files = ["CHANGELOG.md", "CONTRIBUTING.md", "LICENSE.md", "README.md", "libstemmer.gemspec"]
   spec.files += Dir["lib/**/*.rb"]
+  spec.files += Dir["ext/**/*.{c,h,rb}"]
+  spec.files += Dir["vendor/libstemmer_c/**/*"]
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency("bundler")

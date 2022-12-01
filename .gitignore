@@ -1,8 +1,11 @@
+*.bundle
+*.o
 /.bundle/
 /.yardoc
 /_yardoc/
 /coverage/
 /doc/
+/ext/libstemmer/Makefile
 /pkg/
 /spec/reports/
 /tmp/

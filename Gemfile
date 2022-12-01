@@ -4,6 +4,9 @@ source "https://rubygems.org"
 
 gemspec
 
+gem "rake-compiler"
+gem "rake-compiler-dock"
+
 group :development do
   gem "rubocop"
   gem "rubocop-minitest"

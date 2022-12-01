@@ -21,6 +21,9 @@ GEM
       method_source (~> 1.0)
     rainbow (3.1.1)
     rake (13.0.6)
+    rake-compiler (1.2.0)
+      rake
+    rake-compiler-dock (1.2.2)
     rbi (0.0.16)
       ast
       parser (>= 2.6.4.0)
@@ -90,6 +93,8 @@ DEPENDENCIES
   libstemmer!
   minitest (~> 5.0)
   rake (~> 13.0)
+  rake-compiler
+  rake-compiler-dock
   rubocop
   rubocop-minitest
   rubocop-rake
